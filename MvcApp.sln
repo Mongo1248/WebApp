@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8378180A-ED1A-49AE-8B0E-843F81330F5E}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.Development.json = appsettings.Development.json
+		appsettings.json = appsettings.json
+		MvcApp.csproj = MvcApp.csproj
+		Program.cs = Program.cs
+		WeatherForecast.cs = WeatherForecast.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{20A7E0AD-1248-4027-BFB6-3024E9B1ABB2}"
+	ProjectSection(SolutionItems) = preProject
+		Controllers\HomeController.cs = Controllers\HomeController.cs
+		Controllers\WeatherForecastController.cs = Controllers\WeatherForecastController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0B2FD00A-CB78-45E7-A743-20B1AB79F3D5}"
+	ProjectSection(SolutionItems) = preProject
+		Models\ErrorViewModel.cs = Models\ErrorViewModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{D2558593-05F3-4F69-8D68-1BB61D28BEAF}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\launchSettings.json = Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{DFF5BFC0-FB15-47B3-9993-D2B8FCEA2996}"
+	ProjectSection(SolutionItems) = preProject
+		Views\_ViewImports.cshtml = Views\_ViewImports.cshtml
+		Views\_ViewStart.cshtml = Views\_ViewStart.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{8253536C-791C-45D9-B65F-52F9498FF0F0}"
+	ProjectSection(SolutionItems) = preProject
+		wwwroot\favicon.ico = wwwroot\favicon.ico
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{96551A07-CF5F-4C41-8E83-B7017446D132}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Home\Index.cshtml = Views\Home\Index.cshtml
+		Views\Home\Privacy.cshtml = Views\Home\Privacy.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{394C4342-94BD-4E27-9B13-26CEFA5DFF69}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Shared\Error.cshtml = Views\Shared\Error.cshtml
+		Views\Shared\_Layout.cshtml = Views\Shared\_Layout.cshtml
+		Views\Shared\_Layout.cshtml.css = Views\Shared\_Layout.cshtml.css
+		Views\Shared\_ValidationScriptsPartial.cshtml = Views\Shared\_ValidationScriptsPartial.cshtml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96551A07-CF5F-4C41-8E83-B7017446D132} = {DFF5BFC0-FB15-47B3-9993-D2B8FCEA2996}
+		{394C4342-94BD-4E27-9B13-26CEFA5DFF69} = {DFF5BFC0-FB15-47B3-9993-D2B8FCEA2996}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {693D462E-AB79-4513-A67C-030B3906D5D5}
+	EndGlobalSection
+EndGlobal
